@@ -1,0 +1,21 @@
+{
+    "bg": "https://i2.wp.com/css-tricks.com/wp-content/uploads/2017/06/css-is-awesome-scaled.jpg?resize=1536%2C1208&ssl=1",
+    "title": "Escritoras brasileiras: o quiz",
+    "description": "Quantas escritoras brasileiras você conhece? Teste seu conhecimento aqui :)",
+    "questions": [
+    ],
+    "external": [
+      ""
+    ],
+    "theme": {
+      "colors": {
+        "primary": "#41257b",
+        "secondary": "#5e35b1",
+        "mainBg": "#7e5dc0",
+        "contrastText": "#FFFFFF",
+        "wrong": "#d50000",
+        "success": "#00c853"
+      },
+      "borderRadius": "4px"
+    }
+  }
