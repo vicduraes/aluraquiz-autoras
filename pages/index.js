@@ -1,3 +1,4 @@
+import React from 'react';
 import styled from 'styled-components';
 import db from '../db.json';
 
@@ -30,14 +31,14 @@ export default function Home() {
       <QuizContainer>
         <Widget>
           <Widget.Header>
-            <h2>TESTE 1</h2>
+            <h2>Escritoras brasileiras: quantas você conhece?</h2>
           </Widget.Header>
-          <Widget.Content></Widget.Content>
+          <Widget.Content />
         </Widget>
 
         <Widget>
           <Widget.Header>
-            <h3>TESTE 2</h3>
+            <h3>Quiz da galera</h3>
           </Widget.Header>
           <Widget.Content>
             <p>
@@ -48,7 +49,7 @@ export default function Home() {
         </Widget>
         <Footer />
       </QuizContainer>
-      <GitHubCorner projectUrl='https://www.github.com/vicduraes' />
+      <GitHubCorner projectUrl="https://www.github.com/vicduraes" />
     </QuizBackground>
   );
 }
