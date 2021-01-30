@@ -1,8 +1,8 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 import styled from 'styled-components';
-import db from '../db.json';
 
+import db from '../db.json';
 import Widget from '../src/components/Widget';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
@@ -45,11 +45,10 @@ export default function Home() {
               }}
             >
               <Input
+                name="userName"
+                value={userName}
                 placeholder="Digite seu nome e vamos jogar :)"
-                onChange={(event) => {
-                  event.preventDefault();
-                  setUserName(event.target.value);
-                }}
+                onChange={(event) => setUserName(event.target.value)}
               />
               <Button type="submit" disabled={!userName}>
                 Jogar

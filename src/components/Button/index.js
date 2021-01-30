@@ -1,22 +1,23 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
+
 import db from '../../../db.json';
 
 const Button = styled.button`
-  margin-top: 10px;
   width: 100%;
   padding: 10px 16px;
+  line-height: 1;
+  outline: 0;
+  background-color: ${({ theme }) => theme.colors.tertiary};
+  border: none;
+  border-radius: ${db.theme.borderRadius};
+  transition: 0.3s;
+  cursor: pointer;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
-  line-height: 1;
-  outline: 0;
-  transition: 0.3s;
-  border: none;
-  cursor: pointer;
-  background-color: ${({ theme }) => theme.colors.tertiary};
   color: ${({ theme }) => theme.colors.contrastText};
-  border-radius: ${db.theme.borderRadius};
 
   &:hover,
   &:focus {
@@ -27,5 +28,10 @@ const Button = styled.button`
     cursor: not-allowed;
   }
 `;
+
+Button.propTypes = {
+  type: PropTypes.oneOf(['submit', 'type', 'button']).isRequired,
+  children: PropTypes.node.isRequired,
+};
 
 export default Button;
