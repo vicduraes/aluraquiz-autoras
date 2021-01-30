@@ -3,6 +3,18 @@
     "title": "Autoras sci-fi: o quiz",
     "description": "Teste seus conhecimentos e descubra quantas escritoras de sci-fi que você conhece no quiz Mulheres que escrevem a ficção científica. Projeto criado durante a Imersão React da Alura.",
     "questions": [
+      {
+        "image": "https://www.thoughtco.com/thmb/XbNqKYneeXEUabFpDYJ9-wgYEdc=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Mary-Shelley-171194034x-56aa23a43df78cf772ac879d.jpg",
+        "title": "O primeiro livro de ficção científica foi escrito por uma mulher! Qual o nome da obra e da autora?",
+        "description": "Essa é fácil, hein?",
+        "answer": 2,
+        "alternatives": [
+          "Harry Potter e a Pedra Filosofal - J.K. Rowling",
+          "Kindred: laços de sangue - Octavia Butler",
+          "Frankenstein - Mary Shelley", 
+          "Jogos Vorazes - Suzanne Collins"
+        ]
+      }
     ],
     "external": [
       ""
