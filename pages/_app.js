@@ -37,6 +37,14 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <title>Autoras Quiz</title>
+        <meta
+          name="title"
+          content="Autoras Quiz: um jogo sobre escritoras brasileiras"
+        />
+        <meta
+          name="description"
+          content="Teste seus conhecimentos e descubra quantas escritoras brasileiras você conhece no Autoras Quiz. Projeto criado durante a Imersão React da Alura"
+        />
         <meta property="og:image" content={db.bg} />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
