@@ -1,4 +1,5 @@
 import React from 'react';
+import { useRouter } from 'next/router';
 import styled from 'styled-components';
 import db from '../db.json';
 
@@ -6,13 +7,9 @@ import Widget from '../src/components/Widget';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
 import QuizBackground from '../src/components/QuizzBackground';
-
-// const BackgroundImage = styled.div`
-//   background-image: url(${db.bg});
-//   flex: 1;
-//   background-size: cover;
-//   background-position: center;
-// `;
+import QuizLogo from '../src/components/QuizLogo';
+import Input from '../src/components/Input';
+import Button from '../src/components/Button';
 
 export const QuizContainer = styled.div`
   width: 100%;
@@ -26,14 +23,36 @@ export const QuizContainer = styled.div`
 `;
 
 export default function Home() {
+  const router = useRouter();
+  const [userName, setUserName] = React.useState('');
+
   return (
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
+        <QuizLogo />
         <Widget>
           <Widget.Header>
             <h2>Escritoras brasileiras: quantas você conhece?</h2>
           </Widget.Header>
-          <Widget.Content />
+          <Widget.Content>
+            <form
+              onSubmit={(event) => {
+                event.preventDefault();
+                router.push(`/quiz?name=${userName}`);
+              }}
+            >
+              <Input
+                placeholder="Digite seu nome e vamos jogar :)"
+                onChange={(event) => {
+                  event.preventDefault();
+                  setUserName(event.target.value);
+                }}
+              />
+              <Button type="submit" disabled={!userName}>
+                Jogar
+              </Button>
+            </form>
+          </Widget.Content>
         </Widget>
 
         <Widget>

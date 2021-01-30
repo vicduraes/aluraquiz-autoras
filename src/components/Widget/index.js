@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const Widget = styled.section`
   margin: 24px 0 24px 0;
   border: 1px solid ${({ theme }) => theme.colors.secondary};
-  background-color: ${({ theme }) => theme.colors.mainBg};
+  background-color: ${({ theme }) => theme.colors.primary};
   border-radius: ${({ theme }) => theme.borderRadius};
   overflow: hidden;
 
@@ -28,7 +28,7 @@ Widget.Header = styled.header`
   justify-content: flex-start;
   align-items: center;
   padding: 18px 32px;
-  background-color: ${({ theme }) => theme.colors.primary};
+  background-color: ${({ theme }) => theme.colors.secondary};
 
   * {
     margin: 0;
