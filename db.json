@@ -14,6 +14,66 @@
           "Frankenstein - Mary Shelley", 
           "Jogos Vorazes - Suzanne Collins"
         ]
+      },
+      {
+        "image": "https://i1.wp.com/shoppeblack.us/wp-content/uploads/2020/03/1_Trsx8jHsPkE6T-OtFg-0Xw.png?fit=1400%2C870&ssl=1",
+        "title": "______ é considerada a Grande Dama da Ficção Científica e foi a primeira mulher negra norte-americana a conquistar sucesso em uma área da literatura dominada por homens: a ficção científica. Complete o nome:",
+        "description": "Dica: 'Kindred' é um de seus livros mais famosos!",
+        "answer": 0,
+        "alternatives": [
+          "Octavia Butler",
+          "N.K Jemisin", 
+          "Margaret Atwood",
+          "Maryse Condé"
+        ]
+      },
+      {
+        "image": "https://images.gr-assets.com/authors/1593982823p8/7202024.jpg",
+        "title": "A mineira-brasiliense Aline Valek escreve livros, zines, é ilustradora e também tem um podcast. Todos os seus trabalhos misturam ficção e realidade de uma forma muito única. Qual o nome do livro mais recente publicado pela autora?",
+        "description": "Não esquece de assinar a newsletter dela depois que terminar o quiz :)",
+        "answer": 3,
+        "alternatives": [
+          "As águas-vivas não sabem de si",
+          "Pequenas tiranias", 
+          "Hipersonia crônica",
+          "Cidades afundam em dias normais"
+        ]
+      },
+      {
+        "image": "https://abookaholicgirl.files.wordpress.com/2019/10/ursula.jpg",
+        "title": "Ursula K. Le Guin é uma das escritoras de ficção científica e fantasia mais relevante no mundo. Vencedora de mais de 50 prêmios literários, a autora escreveu um livro que propõe discussões sobre gênero, feminismo e filosofia. Qual o nome da obra?",
+        "description": "Esse entra na lista do 'precisa ler' com certeza!",
+        "answer": 0,
+        "alternatives": [
+          "A mão esquerda da escuridão",
+          "O conto da Aia",
+          "Os Despossuídos",
+          "A quinta estação"
+        ]
+      },
+      {
+        "image": "https://ca-times.brightspotcdn.com/dims4/default/dd71bc7/2147483647/strip/true/crop/1022x575+0+0/resize/1200x675!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F71%2F5d%2Fc12b30dcf0ebcc380ec2da81faf2%2Fla-1543523472-p0iumbtbwc-snap-image",
+        "title": "Escrito por Margaret Atwood em 1985, a obra conta a história da República de Gilead, uma teocracia implantada forçadamente na sociedade após uma revolução teocrática feita no século XXI. Qual o nome da obra?",
+        "description": "Dica: a série é beeem famosa!",
+        "answer": 1,
+        "alternatives": [
+          "Eu, Tituba",
+          "O conto da Aia",
+          "A cor púrpura",
+          "A parábola do semeador"
+        ]
+      },
+      {
+        "image": "https://i.ytimg.com/vi/rKRWyAp12HU/maxresdefault.jpg",
+        "title": "Best-seller do New York Times, a obra 'A quinta estação' venceu o prêmio Hugo Awards na categoria principal, e nos anos seguintes as duas continuações da trilogia literária também levaram o prêmio principal, quebrando recordes e tornando sua autora a primeira pessoa negra a receber o prêmio nessa categoria. Qual o nome da autora da trilogia?",
+        "description": "Espero que você a conheça! :)",
+        "answer": 0,
+        "alternatives": [
+          "N.K. Jemisin",
+          "Alice Walker",
+          "Maryse Condé",
+          "Octavia Butler"
+        ]
       }
     ],
     "external": [
