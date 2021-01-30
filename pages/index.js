@@ -32,7 +32,10 @@ export default function Home() {
         <QuizLogo />
         <Widget>
           <Widget.Header>
-            <h2>Escritoras brasileiras: quantas você conhece?</h2>
+            <h2>
+              Quantas escritoras de ficção científica você conhece? Descubra
+              agora!
+            </h2>
           </Widget.Header>
           <Widget.Content>
             <form

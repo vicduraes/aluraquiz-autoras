@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const Widget = styled.section`
   margin: 24px 0 24px 0;
-  border: 1px solid ${({ theme }) => theme.colors.secondary};
+  border: 1px solid ${({ theme }) => theme.colors.primary};
   background-color: ${({ theme }) => theme.colors.primary};
   border-radius: ${({ theme }) => theme.borderRadius};
   overflow: hidden;

@@ -36,15 +36,12 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Autoras Quiz</title>
+        <title>{db.title}</title>
         <meta
           name="title"
-          content="Autoras Quiz: um jogo sobre escritoras brasileiras"
+          content="Mulheres que escrevem a ficção científica"
         />
-        <meta
-          name="description"
-          content="Teste seus conhecimentos e descubra quantas escritoras brasileiras você conhece no Autoras Quiz. Projeto criado durante a Imersão React da Alura"
-        />
+        <meta name="description" content={db.description} />
         <meta property="og:image" content={db.bg} />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link

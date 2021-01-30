@@ -14,7 +14,7 @@ const Button = styled.button`
   transition: 0.3s;
   border: none;
   cursor: pointer;
-  background-color: ${({ theme }) => theme.colors.mainBg};
+  background-color: ${({ theme }) => theme.colors.tertiary};
   color: ${({ theme }) => theme.colors.contrastText};
   border-radius: ${db.theme.borderRadius};
 

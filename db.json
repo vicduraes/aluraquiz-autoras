@@ -1,7 +1,7 @@
 {
-    "bg": "https://ogimg.infoglobo.com.br/cultura/livros/23846162-076-1b6/FT1086A/652/Firmina.jpg",
-    "title": "Escritoras brasileiras: o quiz",
-    "description": "Quantas escritoras brasileiras você conhece? Teste seu conhecimento aqui :)",
+    "bg": "https://res.cloudinary.com/arre/image/upload/v1568288405/HT_v01_x06kbv.jpg",
+    "title": "Autoras sci-fi: o quiz",
+    "description": "Teste seus conhecimentos e descubra quantas escritoras de sci-fi que você conhece no quiz Mulheres que escrevem a ficção científica. Projeto criado durante a Imersão React da Alura.",
     "questions": [
     ],
     "external": [
@@ -9,12 +9,13 @@
     ],
     "theme": {
       "colors": {
-        "primary": "#41257b",
-        "secondary": "#5e35b1",
-        "mainBg": "#7e5dc0",
+        "primary": "#571814",
+        "secondary": "#D73C32",
+        "tertiary": "#DD7C75",
+        "mainBg": "#57312E",
         "contrastText": "#FFFFFF",
-        "wrong": "#d50000",
-        "success": "#00c853"
+        "wrong": "#A32E26",
+        "success": "#128A87"
       },
       "borderRadius": "4px"
     }

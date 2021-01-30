@@ -5,7 +5,7 @@ import db from '../../../db.json';
 const InputBase = styled.input`
   width: 281px;
   height: 38px;
-  border: 1px solid ${({ theme }) => theme.colors.secondary};
+  border: 1px solid ${({ theme }) => theme.colors.tertiary};
   border-radius: ${db.theme.borderRadius};
   background-color: transparent;
   font-family: 'Lato', sans-serif;
