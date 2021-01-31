@@ -9,6 +9,8 @@ import QuizBackground from '../../src/components/QuizzBackground';
 import QuizLogo from '../../src/components/QuizLogo';
 import Button from '../../src/components/Button';
 import AlternativesForm from '../../src/components/AlternativesForm';
+import BackLinkArrow from '../../src/components/BackLinkArrow';
+import Link from '../../src/components/Link';
 
 function LoadingWidget() {
   return (
@@ -50,6 +52,7 @@ function QuestionWidget({ question, questionIndex, onSubmit, addResults }) {
   return (
     <Widget>
       <Widget.Header>
+        <BackLinkArrow href="/" />
         <h3>{`Pergunta ${questionIndex + 1} de ${db.questions.length}`}</h3>
       </Widget.Header>
       <img
@@ -146,7 +149,9 @@ export default function Quiz() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
-        <QuizLogo />
+        <Link href="/">
+          <QuizLogo />
+        </Link>
         {screenState === screenStates.QUIZ && (
           <QuestionWidget
             question={question}
