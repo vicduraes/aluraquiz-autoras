@@ -12,7 +12,7 @@ const Widget = styled.section`
   h3 {
     font-size: 16px;
     font-weight: 700;
-    line-height: 1;
+    line-height: 1.3;
     margin-bottom: 0;
   }
 
