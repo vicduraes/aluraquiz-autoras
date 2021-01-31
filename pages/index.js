@@ -48,13 +48,26 @@ export default function Home() {
 
         <Widget>
           <Widget.Header>
-            <h3>Quiz da galera</h3>
+            <h3>Quizes da Galera</h3>
           </Widget.Header>
           <Widget.Content>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-              aliquid veniam ipsum laborum. Sunt, quae
-            </p>
+            <ul>
+              {db.external.map((link, index) => {
+                const [projectName, githubUser] = link
+                  .replace(/\//g, '')
+                  .replace('https:', '')
+                  .replace('.vercel.app', '')
+                  .split('.');
+
+                return (
+                  <li key={`externalLink__${index + 1}`}>
+                    <Widget.Topic href={`/quiz/${projectName}___${githubUser}`}>
+                      {`${githubUser}/${projectName}`}
+                    </Widget.Topic>
+                  </li>
+                );
+              })}
+            </ul>
           </Widget.Content>
         </Widget>
         <Footer />
