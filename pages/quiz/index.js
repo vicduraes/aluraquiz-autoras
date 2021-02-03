@@ -46,7 +46,7 @@ function LoadingWidget() {
 function ResultWidget({ results }) {
   return (
     <Widget>
-      <Widget.Header>Acabou! Veja sua pontuação: </Widget.Header>
+      <Widget.Header>Parabéns! Veja sua pontuação: </Widget.Header>
       <Widget.Content>
         <p>{`Você acertou ${results.filter((x) => x).length} perguntas!`}</p>
         <ul>
@@ -134,6 +134,15 @@ function QuestionWidget({ question, questionIndex, onSubmit, addResults }) {
       </Widget.Content>
     </Widget>
   );
+}
+
+export async function getServerSideProps(context) {
+  const gamerUsername = await context.query.name;
+  return {
+    props: {
+      gamerUsername,
+    },
+  };
 }
 
 export default function Quiz() {
