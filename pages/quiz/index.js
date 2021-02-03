@@ -2,6 +2,8 @@
 
 import React from 'react';
 
+import ContentLoader from 'react-content-loader';
+
 import db from '../../db.json';
 import Widget from '../../src/components/Widget';
 import QuizContainer from '../../src/components/QuizContainer';
@@ -16,7 +18,27 @@ function LoadingWidget() {
   return (
     <Widget>
       <Widget.Header>Carregando...</Widget.Header>
-      <Widget.Content>[DESAFIO: Criar um spinner de loading]</Widget.Content>
+      <ContentLoader
+        speed={2}
+        width="100%"
+        height={550}
+        viewBox="0 0 400 630"
+        backgroundColor="#57312E"
+        foregroundColor="#767474"
+      >
+        <rect x="0" y="0" rx="0" ry="0" width="400" height="150" />
+        <rect x="23" y="180" rx="3" ry="3" width="340" height="6" />
+        <rect x="23" y="195" rx="3" ry="3" width="340" height="6" />
+        <rect x="23" y="210" rx="3" ry="3" width="200" height="6" />
+        <rect x="23" y="240" rx="3" ry="3" width="200" height="6" />
+
+        <rect x="23" y="260" rx="3" ry="3" width="340" height="50" />
+        <rect x="23" y="320" rx="3" ry="3" width="340" height="50" />
+        <rect x="23" y="380" rx="3" ry="3" width="340" height="50" />
+        <rect x="23" y="440" rx="3" ry="3" width="340" height="50" />
+
+        <rect x="23" y="550" rx="3" ry="3" width="340" height="40" />
+      </ContentLoader>
     </Widget>
   );
 }
@@ -130,7 +152,7 @@ export default function Quiz() {
   React.useEffect(() => {
     setTimeout(() => {
       setScreenState(screenStates.QUIZ);
-    }, 1000);
+    }, 2000);
   }, []);
 
   function handleSubmit() {
