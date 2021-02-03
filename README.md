@@ -1,10 +1,8 @@
-![codenation-banner](./public/docs/banner-codenation.jpg)
-
 # Alura Quiz! Imersão React da Alura
 
 **AUTORAS SCI-FI: O QUIZ** foi desenvolvido para testar os conhecimentos sobre escritoras de ficção científica. O projeto foi desenvolvido durante a Imersão React Alura, uma semana com conteúdos sobre React.js e Next.js
 
-![autoras-quiz-home](../src/assets/README/autorasquiz_home.png)
+![Capa do Projeto](/_docs/autorasquiz_home.png)
 
 **[https://aluraquiz-autoras.vicduraes.vercel.app/](https://aluraquiz-autoras.vicduraes.vercel.app/)**
 
@@ -40,7 +38,7 @@ para instalar todas as dependências do projeto.
 
 ### Rodando o projeto
 
-Para rodar o projeto em modo de desenvolvimento, entre no diretório `./fashionista-ecommerce` e no terminal rode:
+Para rodar o projeto em modo de desenvolvimento, entre no diretório `./autorasquiz` e no terminal rode:
 
 ```
 npm run dev
