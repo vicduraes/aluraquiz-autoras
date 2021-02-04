@@ -46,7 +46,10 @@ function LoadingWidget() {
 function ResultWidget({ results }) {
   return (
     <Widget>
-      <Widget.Header>Parabéns! Veja sua pontuação: </Widget.Header>
+      <Widget.Header>
+        <BackLinkArrow href="/" />
+        <h3>Parabéns! Veja sua pontuação:</h3>
+      </Widget.Header>
       <Widget.Content>
         <p>{`Você acertou ${results.filter((x) => x).length} perguntas!`}</p>
         <ul>
